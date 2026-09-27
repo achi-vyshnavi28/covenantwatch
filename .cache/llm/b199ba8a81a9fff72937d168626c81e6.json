@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_PAYMENT_DEFAULT", "confidence": 0.98, "reason": "The event describes a payment of interest that was made 19 days after the due date, which constitutes a missed or delayed payment."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.94, "tokens_in": 483, "tokens_out": 56, "cost_usd": 0.000173, "cached": false}}

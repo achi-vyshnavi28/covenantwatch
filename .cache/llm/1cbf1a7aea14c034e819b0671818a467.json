@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_CAPITAL_STRUCTURE", "confidence": 0.95, "reason": "Issuing preferential equity shares alters the company's capital structure and shareholding pattern."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 1.41, "tokens_in": 484, "tokens_out": 50, "cost_usd": 6.8e-05, "cached": false}}

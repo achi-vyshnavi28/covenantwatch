@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_INVESTMENTS", "confidence": 0.95, "reason": "Extending an advance to an associate concern constitutes an investment or loan in another entity, which is typically restricted under investment covenants."}, "meta": {"model": "qwen3.8-27b", "latency_s": 0.25, "tokens_in": 483, "tokens_out": 56, "cost_usd": 0.000173, "cached": false}}

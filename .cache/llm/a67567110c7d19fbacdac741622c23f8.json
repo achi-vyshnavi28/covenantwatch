@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_CONSTITUTIONAL_DOCS", "confidence": 0.98, "reason": "The alteration of the Articles of Association to create a new class of shares amends the company's constitutional documents."}, "meta": {"model": "gpt-oss-120b", "latency_s": 0.88, "tokens_in": 559, "tokens_out": 161, "cost_usd": 0.00018, "cached": false}}

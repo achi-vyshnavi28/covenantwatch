@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_RATING_DOWNGRADE", "confidence": 0.99, "reason": "The company's credit rating was downgraded, triggering a rating downgrade event."}, "meta": {"model": "gpt-oss-120b", "latency_s": 0.68, "tokens_in": 571, "tokens_out": 100, "cost_usd": 0.000146, "cached": false}}

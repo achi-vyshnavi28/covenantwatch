@@ -1,0 +1,1 @@
+{"out": {"topic": "NONE", "confidence": 1.0, "reason": "Winning an employer award is routine positive news that does not impact financial covenants, capital structure, or operational obligations."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.27, "tokens_in": 482, "tokens_out": 45, "cost_usd": 0.000166, "cached": false}}

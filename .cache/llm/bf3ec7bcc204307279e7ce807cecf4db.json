@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_BUSINESS_CHANGE", "confidence": 0.95, "reason": "Entering real-estate development constitutes a significant change in the nature of the company's business."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 1.37, "tokens_in": 481, "tokens_out": 51, "cost_usd": 6.8e-05, "cached": false}}

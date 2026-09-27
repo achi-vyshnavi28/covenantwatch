@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_PROMOTER_LOAN_REPAYMENT", "confidence": 0.95, "reason": "The event involves the repayment of unsecured loans previously taken from the promoter, which is a specific restricted payment covenant topic."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 2.12, "tokens_in": 482, "tokens_out": 62, "cost_usd": 7.3e-05, "cached": false}}

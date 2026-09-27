@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_SMA_NPA", "confidence": 0.98, "reason": "The cash credit was reported as SMA-1, indicating the account is classified as a stressed asset."}, "meta": {"model": "gpt-oss-120b", "latency_s": 5.33, "tokens_in": 563, "tokens_out": 194, "cost_usd": 0.000201, "cached": false}}

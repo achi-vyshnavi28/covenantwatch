@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_DIVIDEND", "confidence": 1.0, "reason": "The event explicitly states that the board declared an interim dividend, which directly triggers the covenant regarding the declaration of dividends or distributions."}, "meta": {"model": "qwen3.8-27b", "latency_s": 0.23, "tokens_in": 480, "tokens_out": 53, "cost_usd": 0.00017, "cached": false}}

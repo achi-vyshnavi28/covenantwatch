@@ -1,0 +1,1 @@
+{"out": {"topic": "NONE", "confidence": 1.0, "reason": "Scheduling a quarterly earnings call is a routine corporate communication activity that does not trigger any loan covenants."}, "meta": {"model": "qwen3.8-27b", "latency_s": 0.27, "tokens_in": 477, "tokens_out": 42, "cost_usd": 0.000163, "cached": false}}

@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_INVESTMENTS", "confidence": 0.97, "reason": "Equity investment in a subsidiary falls under the investments covenant"}, "meta": {"model": "gpt-oss-120b", "latency_s": 4.76, "tokens_in": 560, "tokens_out": 124, "cost_usd": 0.000158, "cached": false}}

@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_MAE", "confidence": 0.86, "reason": "The fire causing a six\u2011week production halt represents a material adverse effect on the borrower\u2019s operations."}, "meta": {"model": "gpt-oss-120b", "latency_s": 5.05, "tokens_in": 558, "tokens_out": 168, "cost_usd": 0.000185, "cached": false}}

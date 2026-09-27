@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_FRESH_BORROWING", "confidence": 0.95, "reason": "The company obtained a new supply-chain finance line from HDFC Bank, which constitutes new borrowing from another lender."}, "meta": {"model": "qwen3.8-27b", "latency_s": 0.58, "tokens_in": 487, "tokens_out": 54, "cost_usd": 0.000173, "cached": false}}

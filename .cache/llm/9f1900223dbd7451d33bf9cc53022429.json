@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_BUSINESS_CHANGE", "confidence": 0.95, "reason": "Entering real-estate development through a new division represents a change in the nature of the company's business activities."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.61, "tokens_in": 478, "tokens_out": 51, "cost_usd": 0.000169, "cached": false}}

@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_CHANGE_CONTROL_MGMT", "confidence": 0.95, "reason": "The appointment of a new Managing Director and CEO represents a significant change in key management personnel."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 1.62, "tokens_in": 493, "tokens_out": 52, "cost_usd": 7e-05, "cached": false}}

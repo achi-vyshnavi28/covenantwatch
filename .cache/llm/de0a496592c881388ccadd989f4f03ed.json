@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_FRESH_BORROWING", "confidence": 0.97, "reason": "The company is taking a new supply\u2011chain finance line from HDFC Bank, which is fresh borrowing from another lender."}, "meta": {"model": "gpt-oss-120b", "latency_s": 0.92, "tokens_in": 565, "tokens_out": 148, "cost_usd": 0.000174, "cached": false}}

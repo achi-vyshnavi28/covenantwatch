@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_ENCUMBRANCE", "confidence": 1.0, "reason": "The promoter pledging their shares creates a charge or lien on assets, which typically triggers encumbrance covenants."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 9.56, "tokens_in": 485, "tokens_out": 53, "cost_usd": 7e-05, "cached": false}}

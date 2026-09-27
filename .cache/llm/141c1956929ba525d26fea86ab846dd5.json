@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_PROMOTER_DILUTION", "confidence": 0.96, "reason": "Preferential allotment of equity shares dilutes existing promoter/shareholder holdings."}, "meta": {"model": "gpt-oss-120b", "latency_s": 0.6, "tokens_in": 560, "tokens_out": 148, "cost_usd": 0.000173, "cached": false}}

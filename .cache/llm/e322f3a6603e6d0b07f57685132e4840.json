@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_RATING_DOWNGRADE", "confidence": 0.95, "reason": "Rating watch signals a potential credit rating downgrade"}, "meta": {"model": "gpt-oss-120b", "latency_s": 1.2, "tokens_in": 560, "tokens_out": 160, "cost_usd": 0.00018, "cached": false}}

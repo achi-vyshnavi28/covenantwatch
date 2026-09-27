@@ -1,0 +1,1 @@
+{"out": {"topic": "NONE", "confidence": 0.99, "reason": "Winning an employer award is routine business news and does not affect any loan covenant"}, "meta": {"model": "gpt-oss-120b", "latency_s": 4.96, "tokens_in": 559, "tokens_out": 98, "cost_usd": 0.000143, "cached": false}}

@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_FRESH_BORROWING", "confidence": 0.95, "reason": "The company is taking on a new supply-chain finance line from HDFC Bank, which constitutes fresh borrowing from another lender."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 14.41, "tokens_in": 490, "tokens_out": 52, "cost_usd": 7e-05, "cached": false}}

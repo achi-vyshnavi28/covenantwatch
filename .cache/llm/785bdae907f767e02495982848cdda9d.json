@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_PROMOTER_LOAN_REPAYMENT", "confidence": 1.0, "reason": "The event explicitly describes the repayment of unsecured loans from the promoter, which directly matches the definition of this covenant topic."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.54, "tokens_in": 481, "tokens_out": 57, "cost_usd": 0.000173, "cached": false}}

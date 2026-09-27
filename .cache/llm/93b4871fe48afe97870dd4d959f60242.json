@@ -1,0 +1,1 @@
+{"out": {"topic": "NONE", "confidence": 1.0, "reason": "Spending on a CSR project is a routine business expense and does not trigger any specific loan covenant topics such as asset disposal, investment, or fund diversion."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.55, "tokens_in": 479, "tokens_out": 51, "cost_usd": 0.000169, "cached": false}}

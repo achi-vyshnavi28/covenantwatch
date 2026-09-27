@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_INSOLVENCY", "confidence": 0.95, "reason": "The filing of a petition under Section 9 of the Insolvency and Bankruptcy Code (IBC) initiates insolvency proceedings, which directly triggers the insolvency covenant."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.63, "tokens_in": 486, "tokens_out": 65, "cost_usd": 0.000179, "cached": false}}

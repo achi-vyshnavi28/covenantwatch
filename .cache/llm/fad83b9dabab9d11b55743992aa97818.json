@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_MAE", "confidence": 0.85, "reason": "A major operational disruption like a fire halting production for six weeks can constitute a material adverse effect on the business."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 3.95, "tokens_in": 482, "tokens_out": 45, "cost_usd": 6.6e-05, "cached": false}}

@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_CHANGE_CONTROL_MGMT", "confidence": 0.95, "reason": "The resignation of a key management personnel such as the CFO directly triggers change in management covenants."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 112.34, "tokens_in": 480, "tokens_out": 52, "cost_usd": 6.9e-05, "cached": false}}

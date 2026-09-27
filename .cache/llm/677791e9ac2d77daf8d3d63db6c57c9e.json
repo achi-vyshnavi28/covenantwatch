@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_MERGER", "confidence": 0.99, "reason": "The board approved an amalgamation of a subsidiary, which falls under merger/restructuring covenants."}, "meta": {"model": "gpt-oss-120b", "latency_s": 5.1, "tokens_in": 559, "tokens_out": 144, "cost_usd": 0.00017, "cached": false}}

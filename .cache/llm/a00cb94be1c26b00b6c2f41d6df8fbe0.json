@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_CAPITAL_STRUCTURE", "confidence": 0.95, "reason": "A preferential allotment of equity shares results in a change in the company's shareholding pattern and capital structure, which is a standard covenant trigger."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.32, "tokens_in": 483, "tokens_out": 59, "cost_usd": 0.000175, "cached": false}}

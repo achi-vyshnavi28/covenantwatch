@@ -1,0 +1,1 @@
+{"out": {"topic": "NONE", "confidence": 1.0, "reason": "The launch of a new product line is a routine business activity that does not trigger any specific loan covenant."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.28, "tokens_in": 477, "tokens_out": 41, "cost_usd": 0.000163, "cached": false}}

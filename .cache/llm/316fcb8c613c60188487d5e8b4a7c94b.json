@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_MAE", "confidence": 0.9, "reason": "Suspension of the plant's consent to operate by a regulatory authority constitutes a material adverse effect or cessation of business operations."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 4.83, "tokens_in": 481, "tokens_out": 55, "cost_usd": 7e-05, "cached": false}}

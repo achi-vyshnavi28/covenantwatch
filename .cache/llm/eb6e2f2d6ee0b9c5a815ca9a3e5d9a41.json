@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_FUND_DIVERSION_END_USE", "confidence": 0.95, "reason": "Advance to a promoter family associate suggests diversion of loan funds to a related party."}, "meta": {"model": "gpt-oss-120b", "latency_s": 5.46, "tokens_in": 562, "tokens_out": 277, "cost_usd": 0.000251, "cached": false}}

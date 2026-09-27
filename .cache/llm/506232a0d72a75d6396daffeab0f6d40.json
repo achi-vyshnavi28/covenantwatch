@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_MAE", "confidence": 0.95, "reason": "Regulatory suspension of operating consent is a material adverse effect per the EOD_MAE covenant"}, "meta": {"model": "gpt-oss-120b", "latency_s": 1.02, "tokens_in": 557, "tokens_out": 176, "cost_usd": 0.000189, "cached": false}}

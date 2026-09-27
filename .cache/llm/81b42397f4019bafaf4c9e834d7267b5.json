@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_ASSET_DISPOSAL", "confidence": 0.97, "reason": "The company is disposing of a non\u2011core asset (warehouse land), which falls under the asset disposal covenant."}, "meta": {"model": "gpt-oss-120b", "latency_s": 4.92, "tokens_in": 563, "tokens_out": 125, "cost_usd": 0.000159, "cached": false}}

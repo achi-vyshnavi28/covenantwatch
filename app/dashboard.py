@@ -4,6 +4,7 @@
 """
 
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -11,6 +12,13 @@ import pandas as pd
 import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+# On Streamlit Cloud, keys come from the app's Secrets settings (never from the repo).
+try:
+    for _k, _v in st.secrets.items():
+        os.environ.setdefault(_k, str(_v))
+except Exception:
+    pass
 
 from covenantwatch.config import BORROWERS, DATA, REPORTS  # noqa: E402
 from covenantwatch.db import connect  # noqa: E402

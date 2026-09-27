@@ -1,0 +1,1 @@
+{"out": {"topic": "NONE", "confidence": 1.0, "reason": "The event describes an on-time payment of a routine EMI, which does not trigger any covenant breach or specific financial event."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.32, "tokens_in": 477, "tokens_out": 45, "cost_usd": 0.000165, "cached": false}}

@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_RATING_DOWNGRADE", "confidence": 1.0, "reason": "The event explicitly states that ICRA revised the company's long-term rating from BBB (Stable) to BBB- (Negative), which constitutes a credit rating downgrade."}, "meta": {"model": "qwen3.8-27b", "latency_s": 0.46, "tokens_in": 495, "tokens_out": 66, "cost_usd": 0.000182, "cached": false}}

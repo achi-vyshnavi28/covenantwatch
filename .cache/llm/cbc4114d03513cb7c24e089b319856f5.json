@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_SMA_NPA", "confidence": 0.95, "reason": "The event indicates the borrower's cash credit account was classified as SMA-1 in the CRILC return by a lender."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 1.49, "tokens_in": 487, "tokens_out": 60, "cost_usd": 7.3e-05, "cached": false}}

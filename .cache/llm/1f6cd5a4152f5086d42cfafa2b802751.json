@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_CONSTITUTIONAL_DOCS", "confidence": 0.95, "reason": "The event explicitly describes the alteration of the Articles of Association, which is a direct amendment to the company's constitutional documents."}, "meta": {"model": "qwen3.8-27b", "latency_s": 0.24, "tokens_in": 480, "tokens_out": 56, "cost_usd": 0.000172, "cached": false}}

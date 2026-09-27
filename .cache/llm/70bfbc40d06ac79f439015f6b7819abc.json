@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_MERGER", "confidence": 0.98, "reason": "The event explicitly describes a scheme of amalgamation, which falls directly under the definition of merger, demerger, or restructuring schemes."}, "meta": {"model": "qwen3.8-27b", "latency_s": 0.24, "tokens_in": 480, "tokens_out": 56, "cost_usd": 0.000172, "cached": false}}

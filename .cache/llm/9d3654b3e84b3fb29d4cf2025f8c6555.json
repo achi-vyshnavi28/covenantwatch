@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_ENCUMBRANCE", "confidence": 0.95, "reason": "Pledging shares creates a charge or lien on the promoter's assets, which typically triggers encumbrance covenants restricting the creation of security interests."}, "meta": {"model": "qwen3.8-27b", "latency_s": 0.7, "tokens_in": 482, "tokens_out": 62, "cost_usd": 0.000176, "cached": false}}

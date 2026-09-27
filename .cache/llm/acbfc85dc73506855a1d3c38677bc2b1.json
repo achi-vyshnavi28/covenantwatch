@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_INVESTMENTS", "confidence": 0.95, "reason": "The event involves the company making an equity investment in its foreign subsidiary."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 11.06, "tokens_in": 485, "tokens_out": 45, "cost_usd": 6.7e-05, "cached": false}}

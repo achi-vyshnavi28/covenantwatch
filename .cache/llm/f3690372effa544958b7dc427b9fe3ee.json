@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_INSOLVENCY", "confidence": 0.99, "reason": "Filing a petition under Section 9 of the IBC initiates insolvency proceedings against the company."}, "meta": {"model": "gpt-oss-120b", "latency_s": 9.21, "tokens_in": 565, "tokens_out": 140, "cost_usd": 0.000169, "cached": false}}

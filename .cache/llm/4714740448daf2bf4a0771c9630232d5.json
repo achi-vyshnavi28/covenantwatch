@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_PAYMENT_DEFAULT", "confidence": 1.0, "reason": "The event describes a delayed payment of the interest installment, which constitutes a payment default."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 1.13, "tokens_in": 485, "tokens_out": 50, "cost_usd": 6.8e-05, "cached": false}}

@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_CHANGE_CONTROL_MGMT", "confidence": 0.97, "reason": "Appointment of a new Managing Director/CEO constitutes a change in management"}, "meta": {"model": "gpt-oss-120b", "latency_s": 0.69, "tokens_in": 570, "tokens_out": 143, "cost_usd": 0.000171, "cached": false}}

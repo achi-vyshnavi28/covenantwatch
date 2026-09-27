@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_FRESH_BORROWING", "confidence": 0.95, "reason": "The event describes the borrower obtaining a new term loan from another lender (Kotak Mahindra Bank), which typically triggers a fresh borrowing covenant."}, "meta": {"model": "qwen3.8-27b", "latency_s": 0.24, "tokens_in": 485, "tokens_out": 56, "cost_usd": 0.000174, "cached": false}}

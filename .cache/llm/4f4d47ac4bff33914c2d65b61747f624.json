@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_CHANGE_CONTROL_MGMT", "confidence": 0.95, "reason": "The appointment of a new Managing Director and CEO and the transition of a co-founder to a non-executive role constitute a change in key management personnel."}, "meta": {"model": "qwen3.8-27b", "latency_s": 0.47, "tokens_in": 490, "tokens_out": 60, "cost_usd": 0.000178, "cached": false}}

@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_SMA_NPA", "confidence": 1.0, "reason": "The event explicitly states that the account was classified as SMA-1, which directly triggers the covenant regarding account classification as SMA or NPA."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.49, "tokens_in": 484, "tokens_out": 53, "cost_usd": 0.000172, "cached": false}}

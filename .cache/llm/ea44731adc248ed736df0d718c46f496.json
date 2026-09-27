@@ -1,0 +1,1 @@
+{"out": {"topic": "NONE", "confidence": 1.0, "reason": "Opening a new service center is a routine operational expansion and does not trigger any specific loan covenant."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.62, "tokens_in": 474, "tokens_out": 39, "cost_usd": 0.00016, "cached": false}}

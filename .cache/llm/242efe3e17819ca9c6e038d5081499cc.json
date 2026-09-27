@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_INVESTMENTS", "confidence": 0.95, "reason": "Acquiring a 51% stake creates a subsidiary, which is an investment in another entity."}, "meta": {"model": "gpt-oss-120b", "latency_s": 4.93, "tokens_in": 565, "tokens_out": 196, "cost_usd": 0.000202, "cached": false}}

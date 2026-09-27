@@ -1,0 +1,1 @@
+{"out": {"topic": "NONE", "confidence": 0.99, "reason": "Product launch is routine business activity and does not trigger any listed covenant"}, "meta": {"model": "gpt-oss-120b", "latency_s": 4.88, "tokens_in": 556, "tokens_out": 84, "cost_usd": 0.000134, "cached": false}}

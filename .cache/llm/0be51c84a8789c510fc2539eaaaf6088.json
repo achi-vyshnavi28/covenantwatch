@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_CROSS_DEFAULT", "confidence": 0.95, "reason": "The recall of a facility by another lender constitutes a default under another credit agreement, which typically triggers cross-default provisions."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.29, "tokens_in": 478, "tokens_out": 48, "cost_usd": 0.000167, "cached": false}}

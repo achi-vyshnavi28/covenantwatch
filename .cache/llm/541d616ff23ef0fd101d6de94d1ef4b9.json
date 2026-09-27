@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_RATING_DOWNGRADE", "confidence": 1.0, "reason": "The event explicitly describes a credit rating downgrade by the rating agency ICRA."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 8.18, "tokens_in": 496, "tokens_out": 49, "cost_usd": 6.9e-05, "cached": false}}

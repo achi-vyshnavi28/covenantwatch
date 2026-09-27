@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_CAPITAL_STRUCTURE", "confidence": 0.95, "reason": "A share buyback reduces the total number of outstanding shares, thereby altering the company's capital structure and shareholding pattern."}, "meta": {"model": "qwen3.8-27b", "latency_s": 0.23, "tokens_in": 479, "tokens_out": 53, "cost_usd": 0.00017, "cached": false}}

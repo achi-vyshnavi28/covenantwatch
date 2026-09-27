@@ -1,0 +1,1 @@
+{"out": {"topic": "NONE", "confidence": 1.0, "reason": "An unmodified limited-review report indicates standard compliance and does not trigger any specific loan covenant or default event."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.52, "tokens_in": 478, "tokens_out": 41, "cost_usd": 0.000163, "cached": false}}

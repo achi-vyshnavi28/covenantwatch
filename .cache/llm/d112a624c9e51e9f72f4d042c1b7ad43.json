@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_RATING_DOWNGRADE", "confidence": 0.95, "reason": "Placing a rating on 'Rating Watch with Negative Implications' is a precursor to a downgrade and triggers covenants related to credit rating deterioration."}, "meta": {"model": "qwen3.8-27b", "latency_s": 0.31, "tokens_in": 482, "tokens_out": 64, "cost_usd": 0.000178, "cached": false}}

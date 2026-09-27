@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_CAPITAL_STRUCTURE", "confidence": 0.92, "reason": "A share buyback alters the company's capital structure and shareholding pattern, triggering the capital\u2011structure covenant."}, "meta": {"model": "gpt-oss-120b", "latency_s": 5.02, "tokens_in": 557, "tokens_out": 211, "cost_usd": 0.00021, "cached": false}}

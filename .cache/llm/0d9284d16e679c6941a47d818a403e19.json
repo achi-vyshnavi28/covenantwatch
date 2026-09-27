@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_MAE", "confidence": 0.85, "reason": "A six-week production halt due to a fire at a key rolling unit constitutes a significant operational disruption that could trigger a Material Adverse Effect (MAE) clause."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.32, "tokens_in": 479, "tokens_out": 62, "cost_usd": 0.000175, "cached": false}}

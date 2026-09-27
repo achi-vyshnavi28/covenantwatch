@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_PROMOTER_DILUTION", "confidence": 0.95, "reason": "The event involves the sale of a stake by the promoter group, which directly impacts promoter shareholding covenants."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 14.07, "tokens_in": 487, "tokens_out": 49, "cost_usd": 6.8e-05, "cached": false}}

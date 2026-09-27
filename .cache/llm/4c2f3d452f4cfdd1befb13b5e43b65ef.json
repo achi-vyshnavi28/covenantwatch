@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_ENCUMBRANCE", "confidence": 0.98, "reason": "The creation of a second charge on factory land in favor of a new lender constitutes creating a lien on assets, which is a standard encumbrance covenant trigger."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.59, "tokens_in": 482, "tokens_out": 63, "cost_usd": 0.000177, "cached": false}}

@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_FRESH_BORROWING", "confidence": 0.95, "reason": "The event involves enhancing a channel finance limit, which represents taking on new or increased borrowing from other lenders."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 1.12, "tokens_in": 494, "tokens_out": 56, "cost_usd": 7.2e-05, "cached": false}}

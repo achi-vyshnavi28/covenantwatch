@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_FRESH_BORROWING", "confidence": 0.95, "reason": "Board approved new working\u2011capital financing via invoice discounting with an NBFC, which constitutes fresh borrowing from another lender."}, "meta": {"model": "gpt-oss-120b", "latency_s": 1.18, "tokens_in": 568, "tokens_out": 210, "cost_usd": 0.000211, "cached": false}}

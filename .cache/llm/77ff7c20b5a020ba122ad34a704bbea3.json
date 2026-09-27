@@ -1,0 +1,1 @@
+{"out": {"topic": "NONE", "confidence": 0.96, "reason": "An unmodified audit report is routine and does not trigger any listed covenant."}, "meta": {"model": "gpt-oss-120b", "latency_s": 0.69, "tokens_in": 813, "tokens_out": 104, "cost_usd": 0.000184, "cached": false}}

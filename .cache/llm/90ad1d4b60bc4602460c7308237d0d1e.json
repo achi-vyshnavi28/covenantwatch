@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_ASSET_DISPOSAL", "confidence": 0.95, "reason": "The sale of land represents the disposal of a fixed asset outside the ordinary course of business."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 1.24, "tokens_in": 486, "tokens_out": 44, "cost_usd": 6.6e-05, "cached": false}}

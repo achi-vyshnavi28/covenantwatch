@@ -1,0 +1,1 @@
+{"out": {"topic": "NONE", "confidence": 0.95, "reason": "CSR spending is a routine business activity and does not trigger any listed covenant"}, "meta": {"model": "gpt-oss-120b", "latency_s": 0.76, "tokens_in": 557, "tokens_out": 177, "cost_usd": 0.00019, "cached": false}}

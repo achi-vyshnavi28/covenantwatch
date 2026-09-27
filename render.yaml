@@ -1,0 +1,12 @@
+# Render blueprint: New > Blueprint > pick this repo. Free plan, built from the Dockerfile.
+services:
+  - type: web
+    name: covenantwatch-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false   # entered in the Render dashboard, never committed
+      - key: SLACK_WEBHOOK_URL
+        sync: false

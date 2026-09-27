@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_INVESTMENTS", "confidence": 0.95, "reason": "Acquiring a majority stake in another entity constitutes making a new investment or subsidiary loan."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 1.44, "tokens_in": 492, "tokens_out": 41, "cost_usd": 6.6e-05, "cached": false}}

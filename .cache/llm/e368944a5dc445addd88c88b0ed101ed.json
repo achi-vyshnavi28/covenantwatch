@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_ENCUMBRANCE", "confidence": 0.95, "reason": "Creating a second charge or lien on company assets for another lender directly triggers asset encumbrance covenants."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 1.18, "tokens_in": 485, "tokens_out": 53, "cost_usd": 7e-05, "cached": false}}

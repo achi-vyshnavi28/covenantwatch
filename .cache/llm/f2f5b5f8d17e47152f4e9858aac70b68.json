@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_PROMOTER_DILUTION", "confidence": 0.99, "reason": "Sale of promoter group stake reduces their holding, triggering the promoter dilution covenant."}, "meta": {"model": "gpt-oss-120b", "latency_s": 4.9, "tokens_in": 564, "tokens_out": 132, "cost_usd": 0.000164, "cached": false}}

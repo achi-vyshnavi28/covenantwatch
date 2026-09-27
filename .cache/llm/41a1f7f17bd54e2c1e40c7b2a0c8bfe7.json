@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_BUSINESS_CHANGE", "confidence": 0.97, "reason": "Announcing a new division for real\u2011estate development changes the nature of the company's business"}, "meta": {"model": "gpt-oss-120b", "latency_s": 0.72, "tokens_in": 557, "tokens_out": 132, "cost_usd": 0.000163, "cached": false}}

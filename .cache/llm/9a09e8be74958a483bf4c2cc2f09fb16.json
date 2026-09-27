@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_CROSS_DEFAULT", "confidence": 0.97, "reason": "The other lender recalled its facility, indicating a default or recall under another lender's loan"}, "meta": {"model": "gpt-oss-120b", "latency_s": 0.65, "tokens_in": 557, "tokens_out": 157, "cost_usd": 0.000178, "cached": false}}

@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_FRESH_BORROWING", "confidence": 0.95, "reason": "The company has taken a new term loan from another lender, which typically triggers a fresh borrowing covenant."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 1.14, "tokens_in": 487, "tokens_out": 55, "cost_usd": 7.1e-05, "cached": false}}

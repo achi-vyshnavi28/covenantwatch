@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_INVESTMENTS", "confidence": 0.95, "reason": "The acquisition of a 51% stake to create a subsidiary constitutes an investment in another entity, which is typically restricted or requires approval under investment covenants."}, "meta": {"model": "qwen3.8-27b", "latency_s": 0.27, "tokens_in": 487, "tokens_out": 62, "cost_usd": 0.000178, "cached": false}}

@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_MERGER", "confidence": 1.0, "reason": "The board approved a scheme of amalgamation of its subsidiary into the company, which falls directly under merger or restructuring."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 1.04, "tokens_in": 482, "tokens_out": 52, "cost_usd": 6.9e-05, "cached": false}}

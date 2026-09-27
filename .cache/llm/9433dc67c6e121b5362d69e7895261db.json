@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_RATING_DOWNGRADE", "confidence": 0.95, "reason": "The company's credit rating was placed on watch with negative implications by a rating agency."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 1.58, "tokens_in": 484, "tokens_out": 45, "cost_usd": 6.6e-05, "cached": false}}

@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_ENCUMBRANCE", "confidence": 0.96, "reason": "The promoter is pledging his shares, creating a charge/encumbrance on his assets."}, "meta": {"model": "gpt-oss-120b", "latency_s": 4.88, "tokens_in": 560, "tokens_out": 161, "cost_usd": 0.000181, "cached": false}}

@@ -1,0 +1,1 @@
+{"out": {"topic": "EOD_PAYMENT_DEFAULT", "confidence": 0.99, "reason": "Interest instalment was paid 19 days after the due date, indicating a delayed payment"}, "meta": {"model": "gpt-oss-120b", "latency_s": 4.98, "tokens_in": 561, "tokens_out": 107, "cost_usd": 0.000148, "cached": false}}

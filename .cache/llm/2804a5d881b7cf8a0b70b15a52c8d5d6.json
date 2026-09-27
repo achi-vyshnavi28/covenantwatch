@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_PROMOTER_DILUTION", "confidence": 0.95, "reason": "The sale of a stake by a promoter group entity to an external investor constitutes a dilution or sale of promoter shareholding."}, "meta": {"model": "qwen3.8-27b", "latency_s": 0.31, "tokens_in": 485, "tokens_out": 57, "cost_usd": 0.000174, "cached": false}}

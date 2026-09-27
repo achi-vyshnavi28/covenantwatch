@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_PREPAYMENT", "confidence": 0.95, "reason": "The term loan was foreclosed ahead of schedule, which constitutes early prepayment of debt."}, "meta": {"model": "gemini-3.5-flash-lite", "latency_s": 1.79, "tokens_in": 481, "tokens_out": 49, "cost_usd": 6.8e-05, "cached": false}}

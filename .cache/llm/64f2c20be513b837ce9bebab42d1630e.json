@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_CHANGE_CONTROL_MGMT", "confidence": 0.97, "reason": "CFO resignation constitutes a change in senior management"}, "meta": {"model": "gpt-oss-120b", "latency_s": 0.71, "tokens_in": 563, "tokens_out": 115, "cost_usd": 0.000153, "cached": false}}

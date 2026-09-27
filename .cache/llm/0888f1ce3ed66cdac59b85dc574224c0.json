@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_DIVIDEND", "confidence": 0.99, "reason": "Board declared an interim dividend, which falls under dividend covenants"}, "meta": {"model": "gpt-oss-120b", "latency_s": 4.67, "tokens_in": 558, "tokens_out": 86, "cost_usd": 0.000135, "cached": false}}

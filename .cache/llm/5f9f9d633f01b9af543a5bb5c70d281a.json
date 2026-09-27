@@ -1,0 +1,1 @@
+{"out": {"topic": "CON_PREPAYMENT", "confidence": 0.95, "reason": "Foreclosing a term loan ahead of schedule using surplus cash constitutes prepayment of the loan, which typically requires lender approval under standard covenants."}, "meta": {"model": "qwen3.8-27b", "latency_s": 4.62, "tokens_in": 478, "tokens_out": 53, "cost_usd": 0.00017, "cached": false}}

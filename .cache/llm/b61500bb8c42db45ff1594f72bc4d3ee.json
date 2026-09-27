@@ -1,0 +1,1 @@
+{"out": {"topic": "NONE", "confidence": 0.99, "reason": "On-time EMI payment is routine and does not trigger any covenant."}, "meta": {"model": "gpt-oss-120b", "latency_s": 1.0, "tokens_in": 555, "tokens_out": 97, "cost_usd": 0.000141, "cached": false}}
