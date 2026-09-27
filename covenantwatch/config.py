@@ -60,6 +60,8 @@ EARLY_WARNING_HEADROOM = 0.15  # amber when within 15% of a limit, or when the t
 MODELS = {
     "gemini-3.5-flash-lite": {"id": "gemini/gemini-3.5-flash-lite", "in": 0.10, "out": 0.40},
     "gemini-3.8-flash": {"id": "gemini/gemini-3.8-flash", "in": 0.30, "out": 2.50},
+    "gpt-oss-120b": {"id": "groq/openai/gpt-oss-120b", "in": 0.15, "out": 0.60},  # approximate Groq list prices
+    "qwen3.8-27b": {"id": "groq/qwen/qwen3.8-27b", "in": 0.29, "out": 0.59},
     "claude-sonnet": {"id": "anthropic/claude-sonnet-4-5", "in": 3.00, "out": 15.00},
     "gpt": {"id": "openai/gpt-5-mini", "in": 0.25, "out": 2.00},
 }

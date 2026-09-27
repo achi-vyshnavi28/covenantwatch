@@ -15,6 +15,7 @@ simulated** (the future has not happened), with problems planted on purpose so d
 | **Covenant extraction** (LLM + quote verification) | Against a register I labelled by hand from the filings | Madhur: precision 96%, recall 96%, **all 3 financial limits exact** (D/E ≤ 3.33, security cover ≥ 1.33x, FACR ≥ 0.3x). Atomberg 93% / 93%. Anchor 86% / 100% |
 | Page-number fix | Same | Madhur recall **33% → 96%**: the model cited printed page numbers (e.g. "436") instead of PDF pages (441) |
 | **Event triage** (news → covenant topic) | 36 labelled events incl. 8 routine-news decoys | LLM 92% accurate, 89% recall, **0 false alerts**; keyword rules 67%, 61% recall |
+| Event triage across models | Same 36 events | Gemini 3.5 Flash-Lite, OpenAI gpt-oss-120b and Qwen 3.8 27B (via Groq) **all 92%, 0 false alerts**. All three disagree with my labels on the same 2 events (a promoter share **pledge**: I said "dilution", all said "encumbrance"; a **buyback**: I said "dividend", all said "capital structure"): the ambiguity is in the taxonomy, not the models |
 | **Monitoring** | Week-by-week replay of FY2027 on a fresh database | **15/15 planted problems caught**, each within 6 days; a re-run raises 0 duplicates; 2 extra early warnings, both correct on inspection (one on real Atomberg FY2025 data) |
 
 What it caught in the replay:

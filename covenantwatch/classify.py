@@ -75,9 +75,11 @@ def evaluate(model: str = DEFAULT_MODEL) -> dict:
 
 
 if __name__ == "__main__":
-    res = evaluate(sys.argv[1] if len(sys.argv) > 1 else DEFAULT_MODEL)
+    model = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_MODEL
+    res = evaluate(model)
     REPORTS.mkdir(exist_ok=True)
-    (REPORTS / "event_classification.json").write_text(json.dumps(res, indent=2), encoding="utf-8")
+    name = "event_classification.json" if model == DEFAULT_MODEL else f"event_classification_{model}.json"
+    (REPORTS / name).write_text(json.dumps(res, indent=2), encoding="utf-8")
     for k, v in res.items():
         print(k, {kk: vv for kk, vv in v.items() if kk != "errors"})
         for e in v["errors"]:

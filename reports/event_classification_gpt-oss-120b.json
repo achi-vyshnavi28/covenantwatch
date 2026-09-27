@@ -1,0 +1,33 @@
+{
+  "keyword": {
+    "accuracy": 0.667,
+    "alert_precision": 0.944,
+    "alert_recall": 0.607,
+    "false_alerts_on_noise": 1,
+    "errors": [
+      "E02: expected CON_FRESH_BORROWING, got NONE",
+      "E03: expected CON_FRESH_BORROWING, got NONE",
+      "E04: expected EOD_RATING_DOWNGRADE, got NONE",
+      "E08: expected CON_PROMOTER_DILUTION, got NONE",
+      "E18: expected CON_ENCUMBRANCE, got NONE",
+      "E19: expected CON_BUSINESS_CHANGE, got NONE",
+      "E21: expected CON_PROMOTER_LOAN_REPAYMENT, got NONE",
+      "E22: expected CON_PREPAYMENT, got NONE",
+      "E23: expected EOD_PAYMENT_DEFAULT, got NONE",
+      "E26: expected EOD_CROSS_DEFAULT, got NONE",
+      "E28: expected EOD_MAE, got NONE",
+      "E34: expected NONE, got CON_CHANGE_CONTROL_MGMT"
+    ]
+  },
+  "llm": {
+    "accuracy": 0.917,
+    "alert_precision": 0.893,
+    "alert_recall": 0.893,
+    "false_alerts_on_noise": 0,
+    "errors": [
+      "E09: expected CON_PROMOTER_DILUTION, got CON_ENCUMBRANCE",
+      "E11: expected CON_DIVIDEND, got CON_CAPITAL_STRUCTURE",
+      "E16: expected CON_CAPITAL_STRUCTURE, got CON_PROMOTER_DILUTION"
+    ]
+  }
+}
