@@ -3,6 +3,7 @@ retries on rate limits, a disk cache (re-running an eval costs nothing), and lat
 
 import hashlib
 import json
+import os
 import time
 
 import litellm
@@ -22,6 +23,13 @@ def _complete(model_id: str, messages: list[dict]) -> litellm.ModelResponse:
                               response_format={"type": "json_object"})
 
 
+KEY_FOR = {"gemini": "GEMINI_API_KEY", "anthropic": "ANTHROPIC_API_KEY", "openai": "OPENAI_API_KEY", "groq": "GROQ_API_KEY"}
+
+
+class MissingKey(RuntimeError):
+    pass
+
+
 def call(model: str, system: str, user: str, schema: type[BaseModel], use_cache: bool = True) -> tuple[BaseModel, dict]:
     spec = MODELS[model]
     messages = [{"role": "system", "content": system}, {"role": "user", "content": user}]
@@ -30,6 +38,9 @@ def call(model: str, system: str, user: str, schema: type[BaseModel], use_cache:
     if use_cache and path.exists():
         hit = json.loads(path.read_text(encoding="utf-8"))
         return schema.model_validate(hit["out"]), {**hit["meta"], "cached": True}
+    env = KEY_FOR.get(spec["id"].split("/")[0])
+    if env and not os.getenv(env):  # fail fast: without a key some providers hang instead of erroring
+        raise MissingKey(f"{env} is not set")
     t = time.time()
     r = _complete(spec["id"], messages)
     text = r.choices[0].message.content or "{}"

@@ -11,6 +11,7 @@ jobs:
       - run: pytest -q
   docker:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - run: docker build -t covenantwatch .
@@ -18,4 +19,4 @@ jobs:
         run: |
           docker run -d -p 8901:8901 --name cw covenantwatch
           for i in $(seq 1 30); do curl -sf localhost:8901/health && break; sleep 2; done
-          curl -sf -X POST "localhost:8901/run?as_of=2027-03-31" && curl -sf localhost:8901/alerts | head -c 400
+          curl -sf --max-time 300 -X POST "localhost:8901/run?as_of=2027-03-31" && curl -sf --max-time 30 localhost:8901/alerts | head -c 400
