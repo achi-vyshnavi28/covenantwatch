@@ -1,5 +1,7 @@
 # CovenantWatch
 
+**Live dashboard: https://covenant-monitor.streamlit.app**
+
 Covenant monitoring for a private-credit portfolio. It reads a borrower's loan terms, builds a covenant register
 with page citations, and then every day tests the numbers, tracks reporting deadlines, checks the borrower's own
 compliance certificates, and triages news and lender notices. Alerts go to Slack or the log, once.
