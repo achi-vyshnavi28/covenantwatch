@@ -1,0 +1,149 @@
+{
+  "planted_problems_caught": "15/15",
+  "missed": [],
+  "false_alerts": [
+    "atomberg|policy|debt_to_equity|FY2025",
+    "madhur_steel|policy|interest_cover|FY2027-Q3"
+  ],
+  "total_alerts": 17,
+  "max_days_to_alert": 6,
+  "rerun_new_alerts": 0,
+  "alerts": [
+    {
+      "key": "anchor_offshore|event|CON_CHANGE_CONTROL_MGMT|EV09",
+      "date": "2027-01-05",
+      "severity": "medium",
+      "title": "Action needs lender consent, none on record: change in control, ownership, management or board / kmp",
+      "detail": "2027-01-05: The Chief Financial Officer has resigned with effect from 31 January. (classified by llm as CON_CHANGE_CONTROL_MGMT)",
+      "evidence": "p. 370: \"b. change in the shareholding pattern, ownership and control of our Company; c. \""
+    },
+    {
+      "key": "atomberg|event|CON_INVESTMENTS|EV06",
+      "date": "2026-12-10",
+      "severity": "medium",
+      "title": "Action needs lender consent, none on record: investments or loans in subsidiaries / other entities",
+      "detail": "2026-12-10: The company invested Rs 50 million as equity in its Bangladesh subsidiary to fund local distribution. (classified by llm as CON_INVESTMENTS)",
+      "evidence": "p. 389: \"to make any investments, including by way of loans or investments in share capit\""
+    },
+    {
+      "key": "atomberg|policy|debt_to_equity|FY2025",
+      "date": "2025-03-31",
+      "severity": "low",
+      "title": "debt to equity early warning (FY2025)",
+      "detail": "debt_to_equity = 1.86 vs limit <= 2.0 (headroom 6.9%). Source data: DRHP (real).",
+      "evidence": "fund policy trigger"
+    },
+    {
+      "key": "atomberg|policy|interest_cover|FY2024",
+      "date": "2024-03-31",
+      "severity": "medium",
+      "title": "interest cover BREACH (FY2024)",
+      "detail": "interest_cover = -6.21 vs limit >= 1.5 (headroom -513.9%). Source data: DRHP (real).",
+      "evidence": "fund policy trigger"
+    },
+    {
+      "key": "madhur_steel|covenant|debt_to_equity|FY2027-Q2",
+      "date": "2026-09-30",
+      "severity": "medium",
+      "title": "debt to equity early warning (FY2027-Q2)",
+      "detail": "debt_to_equity = 2.55 vs limit <= 3.33 (headroom 23.4%); trend projects 3.30 next period. Source data: SIMULATED.",
+      "evidence": "p. 430: \"3. Debt-to-Equity ratio of 3.33:1 to be maintained.\""
+    },
+    {
+      "key": "madhur_steel|covenant|debt_to_equity|FY2027-Q3",
+      "date": "2026-12-31",
+      "severity": "high",
+      "title": "debt to equity BREACH (FY2027-Q3)",
+      "detail": "debt_to_equity = 3.48 vs limit <= 3.33 (headroom -4.5%); trend projects 4.41 next period. Source data: SIMULATED.",
+      "evidence": "p. 430: \"3. Debt-to-Equity ratio of 3.33:1 to be maintained.\""
+    },
+    {
+      "key": "madhur_steel|covenant|security_cover|FY2027-Q2",
+      "date": "2026-09-30",
+      "severity": "medium",
+      "title": "security cover early warning (FY2027-Q2)",
+      "detail": "security_cover = 1.45 vs limit >= 1.33 (headroom 9.0%); trend projects 1.28 next period. Source data: SIMULATED.",
+      "evidence": "p. 431: \"1. First Pari Passu charge on current assets of the company both present and fut\""
+    },
+    {
+      "key": "madhur_steel|covenant|security_cover|FY2027-Q3",
+      "date": "2026-12-31",
+      "severity": "high",
+      "title": "security cover BREACH (FY2027-Q3)",
+      "detail": "security_cover = 1.30 vs limit >= 1.33 (headroom -2.3%); trend projects 1.15 next period. Source data: SIMULATED.",
+      "evidence": "p. 431: \"1. First Pari Passu charge on current assets of the company both present and fut\""
+    },
+    {
+      "key": "madhur_steel|event|CON_FRESH_BORROWING|EV02",
+      "date": "2026-10-14",
+      "severity": "high",
+      "title": "Action needs lender consent, none on record: new borrowing from other lenders",
+      "detail": "2026-10-14: The company availed a Rs 12 crore supply-chain finance line from HDFC Bank to fund higher steel inventory. (classified by llm as CON_FRESH_BORROWING)",
+      "evidence": "p. 441: \"b. intimating the bank prior to availing any fresh loans or facilities from othe\""
+    },
+    {
+      "key": "madhur_steel|event|EOD_RATING_DOWNGRADE|EV04",
+      "date": "2027-01-20",
+      "severity": "high",
+      "title": "Possible event of default: credit rating downgrade",
+      "detail": "2027-01-20: ICRA revised the long-term rating of the company to [ICRA]BBB- (Negative) from [ICRA]BBB (Stable). (classified by llm as EOD_RATING_DOWNGRADE)",
+      "evidence": "p. 442: \"b. downgrade of the credit rating of our Company by any credit rating agency bey\""
+    },
+    {
+      "key": "madhur_steel|integrity|debt_to_equity|FY2027-Q2",
+      "date": "2026-10-29",
+      "severity": "high",
+      "title": "Compliance certificate does not match financials (FY2027-Q2)",
+      "detail": "Reported debt_to_equity 2.05; recomputed from submitted financials 2.55.",
+      "evidence": "certificate vs balance sheet"
+    },
+    {
+      "key": "madhur_steel|policy|interest_cover|FY2027-Q3",
+      "date": "2026-12-31",
+      "severity": "low",
+      "title": "interest cover early warning (FY2027-Q3)",
+      "detail": "interest_cover = 1.69 vs limit >= 1.5 (headroom 12.6%); trend projects 0.92 next period. Source data: SIMULATED.",
+      "evidence": "fund policy trigger"
+    },
+    {
+      "key": "madhur_steel|reporting|stock_statement|2026-08|Bajaj Finance",
+      "date": "2026-09-22",
+      "severity": "medium",
+      "title": "Stock statement for 2026-08 submitted 2026-09-22 (Bajaj Finance)",
+      "detail": "Bajaj Finance requires it by the 20th of the following month (due 2026-09-20); submitted 2026-09-22, 2 day(s) late.",
+      "evidence": "register p. 431"
+    },
+    {
+      "key": "madhur_steel|reporting|stock_statement|2026-11|Bajaj Finance",
+      "date": "2026-12-23",
+      "severity": "medium",
+      "title": "Stock statement for 2026-11 not submitted (Bajaj Finance)",
+      "detail": "Bajaj Finance requires it by the 20th of the following month (due 2026-12-20); not submitted.",
+      "evidence": "register p. 431"
+    },
+    {
+      "key": "madhur_steel|reporting|stock_statement|2026-11|RBL Bank",
+      "date": "2026-12-27",
+      "severity": "medium",
+      "title": "Stock statement for 2026-11 submitted 2026-12-27 (RBL Bank)",
+      "detail": "RBL Bank requires it by the 25th of the following month (due 2026-12-25); submitted 2026-12-27, 2 day(s) late.",
+      "evidence": "register p. 429"
+    },
+    {
+      "key": "madhur_steel|reporting|stock_statement|2027-02|Bajaj Finance",
+      "date": "2027-03-24",
+      "severity": "medium",
+      "title": "Stock statement for 2027-02 not submitted (Bajaj Finance)",
+      "detail": "Bajaj Finance requires it by the 20th of the following month (due 2027-03-20); not submitted.",
+      "evidence": "register p. 431"
+    },
+    {
+      "key": "madhur_steel|reporting|stock_statement|2027-02|RBL Bank",
+      "date": "2027-03-31",
+      "severity": "medium",
+      "title": "Stock statement for 2027-02 not submitted (RBL Bank)",
+      "detail": "RBL Bank requires it by the 25th of the following month (due 2027-03-25); not submitted.",
+      "evidence": "register p. 429"
+    }
+  ]
+}

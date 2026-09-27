@@ -1,0 +1,21 @@
+{
+  "_note": "Alerts the monitor must raise on the simulated FY2027 feed (planted problems P1-P7) plus one from REAL data. Anything else is a false alert.",
+  "expected": [
+    "madhur_steel|covenant|debt_to_equity|FY2027-Q2",
+    "madhur_steel|covenant|debt_to_equity|FY2027-Q3",
+    "madhur_steel|covenant|security_cover|FY2027-Q2",
+    "madhur_steel|covenant|security_cover|FY2027-Q3",
+    "madhur_steel|reporting|stock_statement|2026-08|Bajaj Finance",
+    "madhur_steel|reporting|stock_statement|2026-11|Bajaj Finance",
+    "madhur_steel|reporting|stock_statement|2026-11|RBL Bank",
+    "madhur_steel|reporting|stock_statement|2027-02|Bajaj Finance",
+    "madhur_steel|reporting|stock_statement|2027-02|RBL Bank",
+    "madhur_steel|integrity|debt_to_equity|FY2027-Q2",
+    "madhur_steel|event|CON_FRESH_BORROWING|EV02",
+    "madhur_steel|event|EOD_RATING_DOWNGRADE|EV04",
+    "atomberg|event|CON_INVESTMENTS|EV06",
+    "anchor_offshore|event|CON_CHANGE_CONTROL_MGMT|EV09",
+    "atomberg|policy|interest_cover|FY2024"
+  ],
+  "real_data_note": "Atomberg's restated results are loss-making in FY2024-26, so its interest cover is negative from the first real period: the fund's own trigger fires on real data, before any simulated quarter."
+}

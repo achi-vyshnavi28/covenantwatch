@@ -1,0 +1,30 @@
+{
+  "_note": "Hand-labelled from each company's DRHP 'Financial Indebtedness' chapter. Topics use covenantwatch/taxonomy.py.",
+  "madhur_steel": {
+    "financial": {"FIN_DEBT_EQUITY": {"operator": "<=", "threshold": 3.33, "page": 430},
+                  "FIN_SECURITY_COVER": {"operator": ">=", "threshold": 1.33, "page": 431},
+                  "FIN_FACR": {"operator": ">=", "threshold": 0.3, "page": 431}},
+    "topics": ["FIN_DEBT_EQUITY", "FIN_SECURITY_COVER", "FIN_FACR",
+               "REP_STOCK_STATEMENT", "REP_CA_CERTIFICATE", "REP_CHARGE_FILING", "REP_PARI_PASSU_LETTER", "REP_SECURITY_PERFECTION",
+               "CON_CHANGE_CONTROL_MGMT", "CON_FRESH_BORROWING", "CON_FUND_DIVERSION_END_USE", "CON_ENCUMBRANCE", "CON_ASSET_DISPOSAL",
+               "CON_ASSIGNMENT", "CON_PREPAYMENT", "CON_MERGER", "CON_PROMOTER_DILUTION", "CON_DIVIDEND", "CON_BUSINESS_CHANGE",
+               "CON_PROMOTER_LOAN_REPAYMENT",
+               "EOD_SMA_NPA", "EOD_RATING_DOWNGRADE", "EOD_PAYMENT_DEFAULT", "EOD_COVENANT_BREACH", "EOD_INSOLVENCY",
+               "EOD_MAE", "EOD_CROSS_DEFAULT"],
+    "reporting_deadlines": {"REP_STOCK_STATEMENT": ["by 20th of following month (Bajaj Finance, p. 431)", "by 25th of following month (RBL Bank, p. 429)"]}
+  },
+  "atomberg": {
+    "financial": {},
+    "topics": ["CON_CAPITAL_STRUCTURE", "CON_MERGER", "CON_BUSINESS_CHANGE", "CON_CHANGE_CONTROL_MGMT", "CON_DIVIDEND",
+               "CON_INVESTMENTS", "CON_ENCUMBRANCE", "CON_ASSET_DISPOSAL", "CON_FUND_DIVERSION_END_USE",
+               "EOD_PAYMENT_DEFAULT", "EOD_COVENANT_BREACH", "EOD_MAE", "EOD_CROSS_DEFAULT", "EOD_INSOLVENCY"],
+    "note": "The DRHP says financial covenants exist but does not disclose the numbers: an onboarding gap to close with the lender."
+  },
+  "anchor_offshore": {
+    "financial": {},
+    "topics": ["CON_MERGER", "CON_CHANGE_CONTROL_MGMT", "CON_INVESTMENTS", "CON_CAPITAL_STRUCTURE", "CON_CONSTITUTIONAL_DOCS",
+               "REP_STOCK_STATEMENT",
+               "EOD_COVENANT_BREACH", "EOD_INSOLVENCY", "EOD_MAE", "EOD_PAYMENT_DEFAULT", "EOD_CROSS_DEFAULT", "EOD_FINANCIAL_RATIOS"],
+    "note": "Financial ratio limits are referenced ('beyond the prescribed limits') but not disclosed."
+  }
+}

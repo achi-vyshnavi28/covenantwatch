@@ -1,0 +1,435 @@
+{
+  "financials": [
+    {
+      "doc": "madhur_steel",
+      "period": "FY2024",
+      "period_end": "2024-03-31",
+      "source": "DRHP (real)",
+      "current_borrowings": 6848.7,
+      "noncurrent_borrowings": 401.65,
+      "total_equity": 4277.12,
+      "pbt": 1733.9,
+      "finance_costs": 708.16
+    },
+    {
+      "doc": "madhur_steel",
+      "period": "FY2025",
+      "period_end": "2025-03-31",
+      "source": "DRHP (real)",
+      "current_borrowings": 11405.28,
+      "noncurrent_borrowings": 311.36,
+      "total_equity": 9399.47,
+      "pbt": 2480.16,
+      "finance_costs": 1222.48
+    },
+    {
+      "doc": "madhur_steel",
+      "period": "FY2026",
+      "period_end": "2026-03-31",
+      "source": "DRHP (real)",
+      "current_borrowings": 18628.02,
+      "noncurrent_borrowings": 864.53,
+      "total_equity": 11789.73,
+      "pbt": 3239.02,
+      "finance_costs": 1847.29
+    },
+    {
+      "doc": "atomberg",
+      "period": "FY2024",
+      "period_end": "2024-03-31",
+      "source": "DRHP (real)",
+      "current_borrowings": 1431.57,
+      "noncurrent_borrowings": 164.42,
+      "total_equity": 2013.71,
+      "pbt": -1990.8,
+      "finance_costs": 276.16
+    },
+    {
+      "doc": "atomberg",
+      "period": "FY2025",
+      "period_end": "2025-03-31",
+      "source": "DRHP (real)",
+      "current_borrowings": 1573.14,
+      "noncurrent_borrowings": 189.99,
+      "total_equity": 947.1,
+      "pbt": -1174.05,
+      "finance_costs": 476.33
+    },
+    {
+      "doc": "atomberg",
+      "period": "FY2026",
+      "period_end": "2026-03-31",
+      "source": "DRHP (real)",
+      "current_borrowings": 2397.53,
+      "noncurrent_borrowings": 177.75,
+      "total_equity": 1861.46,
+      "pbt": -1488.81,
+      "finance_costs": 449.07
+    },
+    {
+      "doc": "anchor_offshore",
+      "period": "FY2024",
+      "period_end": "2024-03-31",
+      "source": "DRHP (real)",
+      "current_borrowings": 197.57,
+      "noncurrent_borrowings": 71.86,
+      "total_equity": 785.95,
+      "pbt": 45.6,
+      "finance_costs": 22.77
+    },
+    {
+      "doc": "anchor_offshore",
+      "period": "FY2025",
+      "period_end": "2025-03-31",
+      "source": "DRHP (real)",
+      "current_borrowings": 238.71,
+      "noncurrent_borrowings": 63.98,
+      "total_equity": 914.04,
+      "pbt": 163.15,
+      "finance_costs": 21.69
+    },
+    {
+      "doc": "anchor_offshore",
+      "period": "FY2026",
+      "period_end": "2026-03-31",
+      "source": "DRHP (real)",
+      "current_borrowings": 153.96,
+      "noncurrent_borrowings": 54.34,
+      "total_equity": 1304.25,
+      "pbt": 117.36,
+      "finance_costs": 23.46
+    },
+    {
+      "doc": "madhur_steel",
+      "period": "FY2027-Q1",
+      "period_end": "2026-06-30",
+      "source": "SIMULATED",
+      "current_borrowings": 20520.0,
+      "noncurrent_borrowings": 1080.0,
+      "total_equity": 12000,
+      "pbt": 800,
+      "finance_costs": 470,
+      "current_assets_charged": 31492.8,
+      "wc_outstanding": 19440.0,
+      "collateral_value": 760.0,
+      "facility_amount": 1700.0
+    },
+    {
+      "doc": "madhur_steel",
+      "period": "FY2027-Q2",
+      "period_end": "2026-09-30",
+      "source": "SIMULATED",
+      "current_borrowings": 29796.75,
+      "noncurrent_borrowings": 1568.25,
+      "total_equity": 12300,
+      "pbt": 760,
+      "finance_costs": 520,
+      "current_assets_charged": 40931.32,
+      "wc_outstanding": 28228.5,
+      "collateral_value": 760.0,
+      "facility_amount": 1700.0
+    },
+    {
+      "doc": "madhur_steel",
+      "period": "FY2027-Q3",
+      "period_end": "2026-12-31",
+      "source": "SIMULATED",
+      "current_borrowings": 41325.0,
+      "noncurrent_borrowings": 2175.0,
+      "total_equity": 12500,
+      "pbt": 420,
+      "finance_costs": 610,
+      "current_assets_charged": 50895.0,
+      "wc_outstanding": 39150.0,
+      "collateral_value": 760.0,
+      "facility_amount": 1700.0
+    },
+    {
+      "doc": "madhur_steel",
+      "period": "FY2027-Q4",
+      "period_end": "2027-03-31",
+      "source": "SIMULATED",
+      "current_borrowings": 37990.5,
+      "noncurrent_borrowings": 1999.5,
+      "total_equity": 12900,
+      "pbt": 700,
+      "finance_costs": 580,
+      "current_assets_charged": 49667.58,
+      "wc_outstanding": 35991.0,
+      "collateral_value": 760.0,
+      "facility_amount": 1700.0
+    },
+    {
+      "doc": "atomberg",
+      "period": "FY2027-Q1",
+      "period_end": "2026-06-30",
+      "source": "SIMULATED",
+      "current_borrowings": 2394.0,
+      "noncurrent_borrowings": 126.0,
+      "total_equity": 1800,
+      "pbt": -300,
+      "finance_costs": 110,
+      "current_assets_charged": null,
+      "wc_outstanding": null,
+      "collateral_value": null,
+      "facility_amount": null
+    },
+    {
+      "doc": "atomberg",
+      "period": "FY2027-Q2",
+      "period_end": "2026-09-30",
+      "source": "SIMULATED",
+      "current_borrowings": 2424.4,
+      "noncurrent_borrowings": 127.6,
+      "total_equity": 1760,
+      "pbt": -250,
+      "finance_costs": 112,
+      "current_assets_charged": null,
+      "wc_outstanding": null,
+      "collateral_value": null,
+      "facility_amount": null
+    },
+    {
+      "doc": "atomberg",
+      "period": "FY2027-Q3",
+      "period_end": "2026-12-31",
+      "source": "SIMULATED",
+      "current_borrowings": 2498.12,
+      "noncurrent_borrowings": 131.48,
+      "total_equity": 1730,
+      "pbt": -210,
+      "finance_costs": 115,
+      "current_assets_charged": null,
+      "wc_outstanding": null,
+      "collateral_value": null,
+      "facility_amount": null
+    },
+    {
+      "doc": "atomberg",
+      "period": "FY2027-Q4",
+      "period_end": "2027-03-31",
+      "source": "SIMULATED",
+      "current_borrowings": 2390.2,
+      "noncurrent_borrowings": 125.8,
+      "total_equity": 1700,
+      "pbt": -150,
+      "finance_costs": 118,
+      "current_assets_charged": null,
+      "wc_outstanding": null,
+      "collateral_value": null,
+      "facility_amount": null
+    },
+    {
+      "doc": "anchor_offshore",
+      "period": "FY2027-Q1",
+      "period_end": "2026-06-30",
+      "source": "SIMULATED",
+      "current_borrowings": 202.16,
+      "noncurrent_borrowings": 10.64,
+      "total_equity": 1330,
+      "pbt": 32,
+      "finance_costs": 6,
+      "current_assets_charged": null,
+      "wc_outstanding": null,
+      "collateral_value": null,
+      "facility_amount": null
+    },
+    {
+      "doc": "anchor_offshore",
+      "period": "FY2027-Q2",
+      "period_end": "2026-09-30",
+      "source": "SIMULATED",
+      "current_borrowings": 192.38,
+      "noncurrent_borrowings": 10.12,
+      "total_equity": 1350,
+      "pbt": 30,
+      "finance_costs": 6,
+      "current_assets_charged": null,
+      "wc_outstanding": null,
+      "collateral_value": null,
+      "facility_amount": null
+    },
+    {
+      "doc": "anchor_offshore",
+      "period": "FY2027-Q3",
+      "period_end": "2026-12-31",
+      "source": "SIMULATED",
+      "current_borrowings": 181.55,
+      "noncurrent_borrowings": 9.56,
+      "total_equity": 1365,
+      "pbt": 35,
+      "finance_costs": 6,
+      "current_assets_charged": null,
+      "wc_outstanding": null,
+      "collateral_value": null,
+      "facility_amount": null
+    },
+    {
+      "doc": "anchor_offshore",
+      "period": "FY2027-Q4",
+      "period_end": "2027-03-31",
+      "source": "SIMULATED",
+      "current_borrowings": 198.07,
+      "noncurrent_borrowings": 10.43,
+      "total_equity": 1390,
+      "pbt": 38,
+      "finance_costs": 6,
+      "current_assets_charged": null,
+      "wc_outstanding": null,
+      "collateral_value": null,
+      "facility_amount": null
+    }
+  ],
+  "stock_statements": [
+    {
+      "doc": "madhur_steel",
+      "month": "2026-04",
+      "submitted_on": "2026-05-18"
+    },
+    {
+      "doc": "madhur_steel",
+      "month": "2026-05",
+      "submitted_on": "2026-06-18"
+    },
+    {
+      "doc": "madhur_steel",
+      "month": "2026-06",
+      "submitted_on": "2026-07-18"
+    },
+    {
+      "doc": "madhur_steel",
+      "month": "2026-07",
+      "submitted_on": "2026-08-18"
+    },
+    {
+      "doc": "madhur_steel",
+      "month": "2026-08",
+      "submitted_on": "2026-09-22"
+    },
+    {
+      "doc": "madhur_steel",
+      "month": "2026-09",
+      "submitted_on": "2026-10-18"
+    },
+    {
+      "doc": "madhur_steel",
+      "month": "2026-10",
+      "submitted_on": "2026-11-18"
+    },
+    {
+      "doc": "madhur_steel",
+      "month": "2026-11",
+      "submitted_on": "2026-12-27"
+    },
+    {
+      "doc": "madhur_steel",
+      "month": "2026-12",
+      "submitted_on": "2027-01-18"
+    },
+    {
+      "doc": "madhur_steel",
+      "month": "2027-01",
+      "submitted_on": "2027-02-18"
+    },
+    {
+      "doc": "madhur_steel",
+      "month": "2027-02",
+      "submitted_on": null
+    }
+  ],
+  "certificates": [
+    {
+      "doc": "madhur_steel",
+      "period": "FY2027-Q1",
+      "metric": "debt_to_equity",
+      "reported": 1.8,
+      "submitted_on": "2026-07-28"
+    },
+    {
+      "doc": "madhur_steel",
+      "period": "FY2027-Q2",
+      "metric": "debt_to_equity",
+      "reported": 2.05,
+      "submitted_on": "2026-10-29"
+    },
+    {
+      "doc": "madhur_steel",
+      "period": "FY2027-Q3",
+      "metric": "debt_to_equity",
+      "reported": 3.48,
+      "submitted_on": "2027-01-29"
+    },
+    {
+      "doc": "madhur_steel",
+      "period": "FY2027-Q4",
+      "metric": "debt_to_equity",
+      "reported": 3.1,
+      "submitted_on": "2027-04-28"
+    }
+  ],
+  "events": [
+    {
+      "id": "EV01",
+      "doc": "madhur_steel",
+      "date": "2026-08-02",
+      "text": "The vehicle loan EMI for July was paid on the due date.",
+      "consent_obtained": null
+    },
+    {
+      "id": "EV02",
+      "doc": "madhur_steel",
+      "date": "2026-10-14",
+      "text": "The company availed a Rs 12 crore supply-chain finance line from HDFC Bank to fund higher steel inventory.",
+      "consent_obtained": false
+    },
+    {
+      "id": "EV03",
+      "doc": "madhur_steel",
+      "date": "2026-11-05",
+      "text": "Tata Capital enhanced the channel finance limit by Rs 3 crore; NOC was obtained from PNB, RBL Bank and Bajaj Finance beforehand.",
+      "consent_obtained": true
+    },
+    {
+      "id": "EV04",
+      "doc": "madhur_steel",
+      "date": "2027-01-20",
+      "text": "ICRA revised the long-term rating of the company to [ICRA]BBB- (Negative) from [ICRA]BBB (Stable).",
+      "consent_obtained": null
+    },
+    {
+      "id": "EV05",
+      "doc": "atomberg",
+      "date": "2026-09-15",
+      "text": "The company launched a new range of smart ceiling fans with voice control.",
+      "consent_obtained": null
+    },
+    {
+      "id": "EV06",
+      "doc": "atomberg",
+      "date": "2026-12-10",
+      "text": "The company invested Rs 50 million as equity in its Bangladesh subsidiary to fund local distribution.",
+      "consent_obtained": false
+    },
+    {
+      "id": "EV07",
+      "doc": "anchor_offshore",
+      "date": "2026-10-20",
+      "text": "Members approved alteration of the Articles of Association; prior written consent of the lenders was obtained.",
+      "consent_obtained": true
+    },
+    {
+      "id": "EV08",
+      "doc": "anchor_offshore",
+      "date": "2026-12-01",
+      "text": "The company opened a new service base at Kakinada port.",
+      "consent_obtained": null
+    },
+    {
+      "id": "EV09",
+      "doc": "anchor_offshore",
+      "date": "2027-01-05",
+      "text": "The Chief Financial Officer has resigned with effect from 31 January.",
+      "consent_obtained": false
+    }
+  ]
+}

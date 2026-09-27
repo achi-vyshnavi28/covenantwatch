@@ -1,0 +1,21 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt
+      - run: pytest -q
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t covenantwatch .
+      - name: API starts, runs the monitor and serves alerts (keyword fallback, no API key)
+        run: |
+          docker run -d -p 8901:8901 --name cw covenantwatch
+          for i in $(seq 1 30); do curl -sf localhost:8901/health && break; sleep 2; done
+          curl -sf -X POST "localhost:8901/run?as_of=2027-03-31" && curl -sf localhost:8901/alerts | head -c 400

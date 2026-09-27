@@ -1,0 +1,58 @@
+{
+  "madhur_steel": {
+    "precision": 0.963,
+    "recall": 0.963,
+    "missed": [
+      "REP_CA_CERTIFICATE"
+    ],
+    "extra": [
+      "CON_CONSTITUTIONAL_DOCS"
+    ],
+    "financial_thresholds_exact": {
+      "FIN_DEBT_EQUITY": true,
+      "FIN_SECURITY_COVER": true,
+      "FIN_FACR": true
+    },
+    "covenants_kept": 33,
+    "dropped_unverified": 1,
+    "pages_corrected": 25,
+    "dropped_examples": [
+      "REP_SECURITY_PERFECTION p.433: quote not found on the cited page"
+    ],
+    "latency_s": 15.43,
+    "cost_usd": 0.003011
+  },
+  "atomberg": {
+    "precision": 0.929,
+    "recall": 0.929,
+    "missed": [
+      "CON_ASSET_DISPOSAL"
+    ],
+    "extra": [
+      "REP_CHARGE_FILING"
+    ],
+    "financial_thresholds_exact": {},
+    "covenants_kept": 15,
+    "dropped_unverified": 0,
+    "pages_corrected": 0,
+    "dropped_examples": [],
+    "latency_s": 4.89,
+    "cost_usd": 0.001124
+  },
+  "anchor_offshore": {
+    "precision": 0.857,
+    "recall": 1.0,
+    "missed": [],
+    "extra": [
+      "CON_PREPAYMENT",
+      "REP_SECURITY_PERFECTION"
+    ],
+    "financial_thresholds_exact": {},
+    "covenants_kept": 15,
+    "dropped_unverified": 0,
+    "pages_corrected": 0,
+    "dropped_examples": [],
+    "latency_s": 4.96,
+    "cost_usd": 0.000952
+  }
+}
