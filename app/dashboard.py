@@ -13,10 +13,13 @@ import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-# On Streamlit Cloud, keys come from the app's Secrets settings (never from the repo).
+# On Streamlit Cloud, keys come from the app's Secrets settings (never from the repo). Accept keys at the top level or
+# inside a [section], in any letter case.
 try:
     for _k, _v in st.secrets.items():
-        os.environ.setdefault(_k, str(_v))
+        for _kk, _vv in (_v.items() if hasattr(_v, "items") else [(_k, _v)]):
+            if isinstance(_vv, str) and _vv.strip():
+                os.environ[_kk.upper()] = _vv.strip()
 except Exception:
     pass
 
