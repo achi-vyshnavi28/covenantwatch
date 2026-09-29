@@ -10,6 +10,8 @@ compliance certificates, and triages news and lender notices. Alerts go to Slack
 filed with SEBI (Madhur Iron & Steel, Atomberg Technologies, Anchor Offshore Services). **FY2027 quarters are
 simulated** (the future has not happened), with problems planted on purpose so detection can be measured.
 
+![Alerts raised over the simulated year](docs/img/alerts.png)
+
 ## Results
 
 | Step | How it was measured | Result |
@@ -31,6 +33,8 @@ What it caught in the replay:
 - And it stayed quiet on consented actions and routine news
 
 ## How it works
+
+![Portfolio view: latest covenant and policy tests per borrower](docs/img/portfolio.png)
 
 ```
 DRHP loan pages ─> extract (LLM) ─> verify quote on page ─> register ─> analyst confirms
