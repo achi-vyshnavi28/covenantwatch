@@ -16,9 +16,11 @@ import json
 from datetime import date
 
 from covenantwatch.classify import classify
-from covenantwatch.config import BORROWERS, DATA, EARLY_WARNING_HEADROOM, POLICY
+from covenantwatch.config import BORROWERS, DATA
 from covenantwatch.db import audit, connect, raise_alert
 from covenantwatch.notify import notify
+from covenantwatch.rules import evaluate, load_rules
+from covenantwatch.rules import severity as rule_severity
 from covenantwatch.taxonomy import TOPICS
 
 METRIC_OF = {"FIN_DEBT_EQUITY": "debt_to_equity", "FIN_SECURITY_COVER": "security_cover", "FIN_FACR": "facr",
@@ -38,15 +40,9 @@ def metrics(f) -> dict:
 
 
 def status(actual: float, op: str, limit: float, projected: float | None) -> tuple[str, float]:
-    if op == "<=":
-        headroom = (limit - actual) / limit
-        red = actual > limit
-        near = projected is not None and projected >= 0.95 * limit
-    else:
-        headroom = (actual - limit) / limit
-        red = actual < limit
-        near = projected is not None and projected <= 1.05 * limit
-    return ("red" if red else "amber" if headroom < EARLY_WARNING_HEADROOM or near else "green"), round(headroom * 100, 1)
+    """Thin wrapper over the rules engine (rules.py / rules.json)."""
+    d = evaluate(actual, op, limit, projected)
+    return d.status, d.headroom_pct
 
 
 def load(con, feed: dict, register: list[dict]) -> None:
@@ -70,7 +66,7 @@ def financial_tests(con, as_of: str) -> list[str]:
         covs = {c["topic"]: c for c in con.execute("SELECT * FROM covenants WHERE doc=? AND category='financial' AND threshold IS NOT NULL", (doc,))}
         limits = [(METRIC_OF[t], "covenant", c["operator"], c["threshold"], f"p. {c['page']}: \"{c['quote'][:80]}\"") for t, c in covs.items() if t in METRIC_OF]
         covered = {m for m, *_ in limits}
-        limits += [(m, "policy", op, v, "fund policy trigger") for m, (op, v) in POLICY.items() if m not in covered]
+        limits += [(m, "policy", op, v, "fund policy trigger") for m, (op, v) in load_rules().policy_triggers.items() if m not in covered]
         rows = con.execute("SELECT * FROM financials WHERE doc=? AND period_end<=? ORDER BY period_end", (doc, as_of)).fetchall()
         history: dict[str, list[float]] = {}
         prev_status: dict[tuple, str] = {}
@@ -89,7 +85,7 @@ def financial_tests(con, as_of: str) -> list[str]:
                 prev_status[(metric, kind)] = st
                 worse = {"green": 0, "amber": 1, "red": 2}
                 if worse[st] > worse[before]:
-                    sev = ("high" if st == "red" else "medium") if kind == "covenant" else ("medium" if st == "red" else "low")
+                    sev = rule_severity(kind, st)
                     word = "BREACH" if st == "red" else "early warning"
                     proj = f"; trend projects {projected:.2f} next period" if projected is not None else ""
                     key = f"{doc}|{kind}|{metric}|{f['period']}"

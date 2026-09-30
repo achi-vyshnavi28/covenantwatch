@@ -53,9 +53,7 @@ BORROWERS = {
     },
 }
 
-# Fund's own early-warning triggers, applied to every borrower (useful where the filing discloses no numeric covenant).
-POLICY = {"debt_to_equity": ("<=", 2.0), "interest_cover": (">=", 1.5)}
-EARLY_WARNING_HEADROOM = 0.15  # amber when within 15% of a limit, or when the trend projects a breach next quarter
+# The fund's policy triggers and early-warning thresholds live in rules.json (versioned rules engine, see rules.py).
 
 MODELS = {
     "gemini-3.5-flash-lite": {"id": "gemini/gemini-3.5-flash-lite", "in": 0.10, "out": 0.40},

@@ -1,0 +1,20 @@
+{
+  "version": "2026.10.1",
+  "description": "Deterministic decision rules for covenant and policy tests. Changing a threshold means changing this file, reviewed like code; every decision records the version that made it.",
+  "status_rules": [
+    {"id": "R1_BREACH", "status": "red", "when": "actual is on the wrong side of the limit"},
+    {"id": "R2_LOW_HEADROOM", "status": "amber", "when": "headroom below early_warning_headroom"},
+    {"id": "R3_TREND_TO_LIMIT", "status": "amber", "when": "next-period projection within projection_band of the limit"},
+    {"id": "R4_WITHIN_LIMITS", "status": "green", "when": "none of the above"}
+  ],
+  "early_warning_headroom": 0.15,
+  "projection_band": 0.05,
+  "severity": {
+    "covenant": {"red": "high", "amber": "medium"},
+    "policy": {"red": "medium", "amber": "low"}
+  },
+  "policy_triggers": {
+    "debt_to_equity": ["<=", 2.0],
+    "interest_cover": [">=", 1.5]
+  }
+}
