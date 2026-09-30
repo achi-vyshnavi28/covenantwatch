@@ -4,3 +4,4 @@
 __pycache__
 .git
 data/*.sqlite3
+web/node_modules

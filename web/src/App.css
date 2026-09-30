@@ -1,0 +1,33 @@
+:root { --red: #dc2626; --amber: #d97706; --green: #16a34a; --line: #e5e7eb; --muted: #6b7280; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, sans-serif; background: #f8fafc; color: #111827; }
+main { max-width: 1200px; margin: 0 auto; padding: 24px 16px; }
+header { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-bottom: 16px; }
+h1 { margin: 0; font-size: 24px; }
+h2 { margin: 0; font-size: 17px; }
+.muted { color: var(--muted); }
+.small { font-size: 12px; margin-top: 2px; }
+.grid { display: grid; grid-template-columns: 3fr 2fr; gap: 16px; }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+.card { background: white; border: 1px solid var(--line); border-radius: 10px; padding: 16px; overflow-x: auto; }
+.card-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; }
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+button, select { font: inherit; border: 1px solid var(--line); background: white; border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+button:disabled { opacity: 0.5; cursor: default; }
+.chips { display: flex; gap: 6px; }
+.chip { text-transform: capitalize; }
+.chip.on { background: #111827; color: white; border-color: #111827; }
+.badge { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; text-transform: capitalize; color: white; margin-right: 6px; }
+.badge.red, .badge.high { background: var(--red); }
+.badge.amber, .badge.medium { background: var(--amber); }
+.badge.green, .badge.low { background: var(--green); }
+.alerts { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.alert { border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: 8px; padding: 10px; display: grid; gap: 8px; font-size: 14px; }
+.alert.high { border-left-color: var(--red); }
+.alert.medium { border-left-color: var(--amber); }
+.alert.low { border-left-color: var(--green); }
+.actions { display: flex; gap: 6px; flex-wrap: wrap; }
+.error { color: var(--red); }

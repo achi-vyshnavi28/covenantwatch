@@ -6,21 +6,26 @@ import json
 import os
 import time
 
-import litellm
 from pydantic import BaseModel, ValidationError
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
 
 from covenantwatch.config import CACHE, MODELS
 
-litellm.suppress_debug_info = True
-TRANSIENT = (litellm.RateLimitError, litellm.InternalServerError, litellm.ServiceUnavailableError,
-             litellm.APIConnectionError, litellm.Timeout)
 
+def _complete(model_id: str, messages: list[dict]):
+    # imported lazily: the API and the daily rule checks run without loading the LLM stack at all
+    import litellm
 
-@retry(retry=retry_if_exception_type(TRANSIENT), wait=wait_exponential(min=4, max=90), stop=stop_after_attempt(8), reraise=True)
-def _complete(model_id: str, messages: list[dict]) -> litellm.ModelResponse:
-    return litellm.completion(model=model_id, messages=messages, temperature=0, timeout=120,
-                              response_format={"type": "json_object"})
+    litellm.suppress_debug_info = True
+    transient = (litellm.RateLimitError, litellm.InternalServerError, litellm.ServiceUnavailableError,
+                 litellm.APIConnectionError, litellm.Timeout)
+
+    @retry(retry=retry_if_exception_type(transient), wait=wait_exponential(min=4, max=90), stop=stop_after_attempt(8), reraise=True)
+    def attempt():
+        return litellm.completion(model=model_id, messages=messages, temperature=0, timeout=120,
+                                  response_format={"type": "json_object"})
+
+    return attempt()
 
 
 KEY_FOR = {"gemini": "GEMINI_API_KEY", "anthropic": "ANTHROPIC_API_KEY", "openai": "OPENAI_API_KEY", "groq": "GROQ_API_KEY"}

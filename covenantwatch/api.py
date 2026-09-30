@@ -13,7 +13,10 @@
 from datetime import date, datetime, timezone
 from typing import Literal
 
+import os
+
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from covenantwatch.config import BORROWERS
@@ -21,6 +24,9 @@ from covenantwatch.db import audit, connect
 from covenantwatch.monitor import run
 
 app = FastAPI(title="CovenantWatch", description="Covenant monitoring for private-credit portfolios")
+# the React analyst console (web/) calls this API from the browser
+app.add_middleware(CORSMiddleware, allow_origins=os.getenv("COVENANTWATCH_CORS", "http://localhost:5173").split(","),
+                   allow_methods=["GET", "POST"], allow_headers=["Content-Type"])
 SEVERITY = "CASE severity WHEN 'high' THEN 0 WHEN 'medium' THEN 1 ELSE 2 END"
 
 

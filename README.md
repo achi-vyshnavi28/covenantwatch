@@ -50,7 +50,15 @@ news / lender notices ─┘                   certificate vs recomputed ratio  
 - **Idempotent**: alerts are keyed, so retries and re-runs never double-notify. Every action is written to an audit table.
 - **Degrades gracefully**: if the LLM is unavailable, event triage falls back to keyword rules instead of stopping.
 - **API** (FastAPI): portfolio, alerts, analyst feedback, register and confirmation, new events, run. **Dashboard** (Streamlit).
-- **Docker** image and GitHub Actions CI (tests, then build the image and call the running API).
+- **Analyst console** (`web/`, React + TypeScript + Vite): portfolio table filtered by status and borrower, open alerts
+  most severe first, and confirm / false positive / resolved buttons that post the analyst's verdict to the API.
+  Typed API client, error states, and component tests with Vitest and Testing Library.
+- **DynamoDB alert store** (`covenantwatch/dynamo_store.py`, optional): single-table design with two access patterns,
+  `BORROWER#doc / ALERT#date#key` for a borrower's alerts newest first and a GSI `STATUS#status / severity#date` for open
+  alerts most severe first. Conditional writes keep it idempotent like the SQLite store; tested against moto's local DynamoDB.
+- **Docker** image and GitHub Actions CI (Python tests, frontend tests and build, then build the image and call the running API).
+
+![React analyst console: portfolio tests by status and open alerts with analyst verdicts](docs/img/react_console.jpg)
 
 ## Run
 
@@ -63,7 +71,9 @@ python -m evals.monitor_eval             # replay + score
 python -m covenantwatch.classify         # event triage: LLM vs keywords
 uvicorn covenantwatch.api:app --port 8901
 streamlit run app/dashboard.py
-pytest                                   # 9 offline tests
+pytest                                   # 13 offline tests (incl. DynamoDB access patterns on moto)
+cd web && npm install && npm run dev     # React console on :5173, proxies /api to :8901
+npm test                                 # frontend component tests
 ```
 
 ## Honest limits
