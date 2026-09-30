@@ -3,12 +3,27 @@ on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env: {POSTGRES_PASSWORD: cw, POSTGRES_DB: covenantwatch}
+        ports: ["5432:5432"]
+        options: --health-cmd pg_isready --health-interval 5s --health-retries 10
+      mysql:
+        image: mysql:8.4
+        env: {MYSQL_ROOT_PASSWORD: cw, MYSQL_DATABASE: covenantwatch}
+        ports: ["3306:3306"]
+        options: --health-cmd "mysqladmin ping -pcw" --health-interval 5s --health-retries 20
+    env:
+      COVENANTWATCH_TEST_PG_URL: postgresql+psycopg://postgres:cw@localhost:5432/covenantwatch
+      COVENANTWATCH_TEST_MYSQL_URL: mysql+pymysql://root:cw@127.0.0.1:3306/covenantwatch
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install -r requirements.txt
-      - run: pytest -q
+      - name: Tests, including the relational sync on PostgreSQL and MySQL and DynamoDB on moto
+        run: pytest -q
   web:
     runs-on: ubuntu-latest
     defaults:

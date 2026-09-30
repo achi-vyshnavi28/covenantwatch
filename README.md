@@ -56,7 +56,14 @@ news / lender notices ─┘                   certificate vs recomputed ratio  
 - **DynamoDB alert store** (`covenantwatch/dynamo_store.py`, optional): single-table design with two access patterns,
   `BORROWER#doc / ALERT#date#key` for a borrower's alerts newest first and a GSI `STATUS#status / severity#date` for open
   alerts most severe first. Conditional writes keep it idempotent like the SQLite store; tested against moto's local DynamoDB.
-- **Docker** image and GitHub Actions CI (Python tests, frontend tests and build, then build the image and call the running API).
+- **PostgreSQL / MySQL reporting store** (`covenantwatch/sql_mirror.py`): the daily job runs on SQLite and syncs covenant
+  tests and alerts into a shared PostgreSQL or MySQL database with each database's native upsert (ON CONFLICT /
+  ON DUPLICATE KEY UPDATE), and recreates the same ROW_NUMBER and LAG views there for BI tools. Tested on SQLite,
+  PostgreSQL 16 and MySQL 8.4; the real portfolio (50 tests, 17 alerts) syncs to PostgreSQL.
+- **Versioned rules engine** (`covenantwatch/rules.json`, `rules.py`): every decision records the rule that fired and the
+  rules version.
+- **Docker** image and GitHub Actions CI (Python tests with PostgreSQL and MySQL service containers, frontend tests and
+  build, then build the image and call the running API).
 
 ![React analyst console: portfolio tests by status and open alerts with analyst verdicts](docs/img/react_console.jpg)
 
