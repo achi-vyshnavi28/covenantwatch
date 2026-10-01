@@ -91,3 +91,6 @@ npm test                                 # frontend component tests
 - The event test set is small (36) and written by me; real news is messier.
 
 See [docs/onboarding.md](docs/onboarding.md) for how a fund would go live with it.
+
+## License
+The code is open source under the [MIT License](LICENSE). Company filings are public documents published through SEBI and remain subject to their publishers' terms.
