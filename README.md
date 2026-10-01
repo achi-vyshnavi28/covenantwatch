@@ -67,6 +67,14 @@ news / lender notices ─┘                   certificate vs recomputed ratio  
 
 ![React analyst console: portfolio tests by status and open alerts with analyst verdicts](docs/img/react_console.jpg)
 
+## Human labelling with SageMaker Ground Truth (`covenantwatch/ground_truth.py`)
+The 36 hand-labelled triage events can be sent to human annotators as a **SageMaker Ground Truth** text-classification
+job: `prepare` writes the input manifest, the label categories (the covenant taxonomy plus NONE for routine news) and
+a crowd-classifier worker template to S3; `launch` creates the job with three annotators per event and Ground Truth's
+built-in consensus; `score` reads the augmented output manifest and reports agreement with the gold labels, false
+alerts, the most common disagreements and a review queue of low-confidence items. The job request is checked against
+the real `CreateLabelingJob` API model in the tests; no job has been run yet (it needs an AWS account and a workforce).
+
 ## Run
 
 ```bash
